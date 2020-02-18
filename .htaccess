@@ -17,7 +17,7 @@ ErrorDocument 403 "Forbidden"
 	#Options -MultiViews
 </IfModule>
 RewriteEngine On
-RewriteBase /
+RewriteBase /FPSBuilder/
 #### PERSISTENT CONTENT ####
 DirectoryIndex index.php index.cgi index.html
 RewriteCond %{REQUEST_FILENAME} !-f [OR]
